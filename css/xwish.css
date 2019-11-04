@@ -1415,7 +1415,7 @@ button.btn.btn-primary.dropdown-toggle.logout_btn:focus{
 
 .card.address-card {
     background: #fff;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     border-radius: 5px;
     -webkit-box-shadow: 7px 5px 30px rgba(72,73,121,.15);
     box-shadow: 7px 5px 30px rgba(72,73,121,.15);
@@ -1470,6 +1470,12 @@ button.btn.btn-primary.dropdown-toggle.logout_btn:focus{
     border-radius: 2px;
 }
 
+.company_addresses2 .card.address-card iframe {
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 249px;
+}
+
 .card.address-card p.icon_text i, .card.address-card p.icon_text svg {
     position: absolute;
     left: 0;
@@ -1479,4 +1485,8 @@ button.btn.btn-primary.dropdown-toggle.logout_btn:focus{
 .card.address-card p.icon_text {
     position: relative;
     padding-left: 28px;
+}
+
+.company_addresses2 {
+    background-image: linear-gradient(to bottom, #fc0580, #fe4593, #ff65a6, #ff7fb6, #ff97c6, #ff97c6, #ff97c6, #ff97c6, #ff7fb6, #ff65a6, #fe4593, #fc0580);
 }
