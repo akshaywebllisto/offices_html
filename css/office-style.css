@@ -1490,3 +1490,10 @@ button.btn.btn-primary.dropdown-toggle.logout_btn:focus{
 .company_addresses2 {
     background-image: linear-gradient(to bottom, #fc0580, #fe4593, #ff65a6, #ff7fb6, #ff97c6, #ff97c6, #ff97c6, #ff97c6, #ff7fb6, #ff65a6, #fe4593, #fc0580);
 }
+
+.sep_dashed {
+    border-bottom: 1px dashed #ccc;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
